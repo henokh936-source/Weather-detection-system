@@ -1,0 +1,21 @@
+Sensor Module
+
+The Sensor Module is responsible for collecting environmental data required for weather monitoring.
+It acts as the input unit of the Weather Detection System by detecting changes in environmental conditions\
+and sending the collected data to the microcontroller for processing.
+
+The system uses different sensors to measure important weather parameters:
+1. Temperature Sensor
+The temperature sensor measures the surrounding air temperature and provides real-time readings.
+The collected data helps users monitor environmental temperature conditions and supports weather analysis.
+2. Humidity Sensor
+The humidity sensor measures the amount of moisture present in the air. 
+It provides humidity values in percentage form and is useful for monitoring atmospheric conditions,
+especially in agriculture and environmental studies.
+3. Rainfall Sensor
+The rainfall sensor detects the presence and amount of rainfall.
+It helps determine weather changes and provides information that can support agricultural planning and rainfall monitoring.
+The sensor module continuously collects environmental data and transmits it to the microcontroller. 
+The microcontroller processes the received values and displays them on the LCD while also storing the information for future reference.
+The accuracy and performance of the Weather Detection System depend greatly on the sensor module because it serves as the primary source of environmental data.
+Proper calibration and testing of sensors are important to ensure reliable readings.
