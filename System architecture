@@ -1,0 +1,21 @@
+System Architecture
+The Weather Detection System follows a simple embedded system architecture consisting of input, processing, output, and storage components.
+The system is designed to collect environmental data, process it, and present meaningful information to users.
+
+Architecture Components
+Input Layer
+The input section contains environmental sensors used for data collection:
+Temperature Sensor – measures atmospheric temperature
+Humidity Sensor – detects moisture levels in the air
+Rainfall Sensor – measures rainfall conditions
+These sensors continuously collect environmental information and send it to the processing unit.
+
+Processing Layer
+The microcontroller acts as the processing unit of the system.
+It receives sensor signals, processes the collected data, and converts raw measurements into readable values.
+
+Output Layer
+Processed information is displayed using an LCD screen for real-time monitoring.
+
+Storage Layer
+The storage module records collected weather data for future analysis and monitoring purposes.
